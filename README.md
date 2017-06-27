@@ -1,9 +1,8 @@
-# rest-koa2-api
+# rest-api-koa2
 RESTFul Koa2 API with Mongoose 
 
-Accounts consist of _email_ (required) + _tags[]_ (optional)
+A required email and optional tags make up each account. 
 
-1. POST /accounts to upsert (if exists, update. if not, create.) accounts
-2. GET /accounts/emails/:tag to fetch all account emails w/ given tag
-3. GET /accounts/tags/:email to fetch all tags for an account w/ given email
+http://localhost/api/users for user resources
+http://localhost/api/companies for company resouces
 
